@@ -1,5 +1,5 @@
 /*Three different adjustment settings to help make the website responsive*/
-/*if the screen is less than 1400px, the desktop navigation will disappear*/
+/*if the screen is less than 1400px...*/
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
