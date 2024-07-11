@@ -1,18 +1,22 @@
+/*Three different adjustment settings to help make the website responsive*/
 /*if the screen is less than 1400px, the desktop navigation will disappear*/
 @media screen and (max-width: 1400px) {
-    #profile{
+    #profile {
         height: 83vh;
         margin-bottom: 6rem;
     }
     .about-containers {
         flex-wrap: wrap;
     }
+    #contact, #projects {
+        height: fit-content;
+    }
 }
 
 
 /*if the screen is less than 1200px, the desktop navigation will disappear*/
 @media screen and (max-width: 1200px) {
-    #desktop-nav{
+    #desktop-nav {
         display: none;
     }
     #hamburger-nav {
@@ -33,7 +37,7 @@
     section {
         margin: 0 5%;
     }
-    .section__pic__container {
+    .section__pic-container {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
@@ -43,8 +47,9 @@
     }
 }
 
+/*if the screen is less than 600px, adjust the screen and media*/
 @media screen and (max-width: 600px) {
-    #contact, footer{
+    #contact, footer {
         height: 40vh;
     }
     #profile {
@@ -87,11 +92,11 @@
         font-size: 1.25rem;
     }
     .title {
-        height: 3rem;
         font-size: 2rem;
     }
     .text-container {
         text-align: justify;
     }
 }
+  
 
